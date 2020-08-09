@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("../font/CenturyGothic.ttf");
+}
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("../font/CenturyGothicBold.ttf");
+    font-weight: bold;
+}
+
+* {
+    font: inherit;
+    font-family: CenturyGothic;
+}
+
+body {
+    background: #bbbbbb;
+}
+
+#header {
+    a:hover {
+        color: #ffffff;
+    }
+
+    .bg-dark-ms {
+        background-color: #002e58;
+    }
+} 
+
+.bg-img {
+    background: url("../img/laptop.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+#About {
+    margin-top: -200px;
+
+    .fa {
+        color: #ffffff;
+    }
+
+    &-footer {
+        text-align: center;
+        background: #0E6BA8;
+    }
+
+    .bg-danger-ms {
+        background: #0E6BA8;
+    }
+
+    span {
+        padding: 10px 20px 10px 20px;
+    }
+
+    hr {
+        border-width: 3px;
+        margin-top: 6px;
+    }
+}
+
+#Skills {
+
+    .bg-primary-ms {
+        background: #002e58;
+    }
+
+    span {
+        padding: 10px 20px 10px 20px;
+    }
+
+    hr {
+        border-width: 3px;
+        margin-top: 6px;
+    }
+
+    .progress-bar {
+        background-color: #0E6BA8;
+    }
+}
+
+#Experience {
+
+    .bg-primary-ms {
+        background: #002e58;
+    }
+
+    .text-title {
+        color: #0E6BA8;
+    }
+
+    span {
+        padding: 10px 20px 10px 20px;
+    }
+
+    hr {
+        border-width: 3px;
+        margin-top: 6px;
+    }
+}
+
